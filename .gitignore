@@ -1,0 +1,61 @@
+##### Python
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+*.swp
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##### Emacs
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+##### Vim
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+##### Backup
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+*.csv
+csv_files
+*.xlsx
+*.pdf
+*.zip
