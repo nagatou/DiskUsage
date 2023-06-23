@@ -16,11 +16,14 @@
 3. インストール
  3.1 パッケージインストール
    c:>python -m pip install -r requirements.txt
+ 3.2 estimate_disk_usage.ini を環境に合わせて path や suffix などを設定
 
 4. 実行方法
  4.1 このプログラムと同じディレクトリに csv_files (設定ファイルで変更可能) というディレクトリを作成
  4.2 csv_files の下に csv ファイルを配置しておく
- 4.1 実行時引数を以下の順番で指定してコマンドプロンプトから実行
+ 4.3 実行時引数を以下の順番で指定してコマンドプロンプトから実行
    c:>python estimate_disk_usage file.xslx suffix
- 4.2 estimate_disk_usage が集計プログラム，file.xslx がグループと課の対応表，suffix は出力ファイル名のサフィックス
+  or
+   c:>python estimate_disk_usage
+ 4.4 estimate_disk_usage が集計プログラム，file.xslx がグループと課の対応表，suffix は出力ファイル名のサフィックス
    - file.xlsx と suffix はその都度自身の環境に合わせて読み替えること
